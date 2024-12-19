@@ -29,14 +29,11 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
           <p>
-            I love the process of changing a raw idea into a website or a product 
-            that impacts lives. 
-            I want to do work that challenges me as a developer & work that I can 
-            be proud of.<br /><br />
-            I am fluent in <b>C++</b> and know a bit of <b>Python</b> and am working on a few 
-            projects in the <b>MERN</b> stack.<br />
-            I plan to learn <b>Next.js</b>, <b>Three.js</b> and<b> Typescript</b> in the near future. <br /><br />
-            Also, I love <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/>   
+          I am passionate about transforming innovative ideas into impactful websites and products that enhance lives. 
+          I thrive on challenges that push me to grow as a developer, and I take pride in the work I create.<br /><br />
+          I am proficient in <b>C++</b> and <b>Python</b>, and currently honing my skills through projects in the <b>MERN</b> stack. 
+          I am constantly learning and looking forward to mastering <b>Next.js</b>, <b>Three.js</b>, and <b>TypeScript</b> soon.<br /><br />
+          In my free time, you’ll probably find me sipping on <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/> and exploring new technologies to fuel my next project.
           </p>
         </div>
         <Tilt>
