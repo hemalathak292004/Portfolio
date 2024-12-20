@@ -6,8 +6,8 @@ import {CgFileDocument} from "react-icons/cg";
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
     TindogDesc : "A responsive and interactive eCommerce platform developed using HTML, CSS, and JavaScript. The website features a user-friendly interface with pages for browsing products, viewing product details, managing the cart, and completing the checkout process. It is designed to provide a smooth shopping experience across devices, ensuring optimal functionality on both desktop and mobile. The website integrates modern design elements and ensures ease of navigation for customers.",
-    TindogGithub : "https://github.com/DevanshSahni/tindog",
-    TindogWebsite : "https://devanshsahni.github.io/tindog/",
+    TindogGithub : "https://github.com/hemalathak292004/ecommerce",
+    TindogWebsite : "https://hemalathak292004.github.io/ecommerce/frontend/index.html",
 
     RogFreeDesc : "An IT business website built with HTML, CSS, Bootstrap, and JavaScript. It features key sections like Home, About, Services, Portfolio, Team, Career, Contact, and FAQ. The site includes client engagement tools such as interactive contact forms, real-time chat support, and email notifications. It showcases project case studies and follows SEO best practices for better visibility, ensuring a seamless experience across devices.",
     RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",

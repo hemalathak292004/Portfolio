@@ -27,7 +27,7 @@ body{
 
 b{
   font-weight: 900;
-  color: #12aba3;
+  color: #eb8a23;
 }
 
 /* Scrollbar */
@@ -36,7 +36,7 @@ b{
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-track {
-  background: #274656;
+  background: #2fa1bb;
   border-radius: 100px;
 }
 ::-webkit-scrollbar-thumb {
@@ -90,7 +90,7 @@ b{
   font-size: 32px;
   letter-spacing: 2px;
   padding-left: 7%;
-  color: #9067C6;
+  color: #0caeab;
   display: flex;
   align-items: center;
   text-align: center;
@@ -157,7 +157,7 @@ b{
     position: fixed;
     inset: 0 0 0 50%;
     gap: 50px;
-    background-color:#431f47;
+    background-color:#1b6a8e;
     height: 100vh;
     padding-top: max(20%,120px);
     transform: translateX(100%);
@@ -178,7 +178,7 @@ b{
 
   .bar{
     display: block;
-    background-color: #E7E7E7;
+    background-color: #e7e7e782;
     border-radius: 50px;
     height: 2.5px;
     width: 30px;
@@ -200,6 +200,7 @@ b{
     rotate: 225deg;
     transition: 0.5s;
   }
+  
 }
 
 
@@ -296,7 +297,7 @@ b{
   padding-bottom: 40px;
 }
 .AboutText a{
-  color: #9067C6;
+  color: #1cace5;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -413,4 +414,104 @@ b{
 }
 .projectBox:hover{
   transform: scale(1.05);
-  box
+  box-shadow: 0 4px 10px 0 #431f47;
+}
+
+.projectPhoto{
+  display: block;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.projectbtn{
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 25px 3% 0;
+  border-radius: 5px;
+  background-color: #431f47;
+  color: #E7E7E7;
+  height: 30px;
+  cursor:pointer;
+  text-decoration: none;
+  border-style: none;
+}
+
+
+/* Resume */
+
+.ResumePage{
+  padding-top: 50px;
+  width: fit-content;
+  position: relative;
+  margin: 100px auto 0px;
+  text-align: center;
+}
+
+.resumeview{
+  pointer-events: none;
+}
+
+.downloadCV{
+  cursor:pointer;
+  margin: 25px 0px;
+  width: 200px;
+  height: 40px;
+  background-color:#431f47;
+  color: #E7E7E7;
+  text-decoration: none;
+  border-radius: 5px;
+  border-style: none; 
+  transition: all 0.5s;
+}
+
+.downloadCV:hover{
+  transition: all 0.5s;
+  background-color: #E7E7E7;
+  color: #12a0bd;
+}
+
+
+/* FOOTER */
+
+footer{
+  width: 90%;
+  height: 40px;
+  margin: 10px auto;
+  margin-top: 80px;
+  letter-spacing: 0.5px;
+  
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  position: relative;
+  bottom: 0px;
+  text-align: center;
+}
+
+footer h4{
+  margin: 0 25px;
+  font-weight: 500;
+}
+
+.footerLinks{
+  display: flex;
+  width: 180px;
+  font-size: 18px;
+  justify-content: space-evenly;
+}
+
+.footerLinks a{ 
+  text-decoration: none;
+  color: inherit;
+}
+
+@media(max-width:750px){
+  footer{
+    height: 110px;
+  }
+}

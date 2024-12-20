@@ -13,7 +13,7 @@ const Home = () => {
 
         <div className='HomeText'>
           <h1>Hi There!</h1>
-          <h1>I'M <b>HEMALATHA</b></h1>
+          <h1>I'M <b>HEMALATHA K</b></h1>
           <Typed/>   
         </div>
 
@@ -31,9 +31,9 @@ const Home = () => {
           <p>
           I am passionate about transforming innovative ideas into impactful websites and products that enhance lives. 
           I thrive on challenges that push me to grow as a developer, and I take pride in the work I create.<br /><br />
-          I am proficient in <b>C++</b> and <b>Python</b>, and currently honing my skills through projects in the <b>MERN</b> stack. 
-          I am constantly learning and looking forward to mastering <b>Next.js</b>, <b>Three.js</b>, and <b>TypeScript</b> soon.<br /><br />
-          In my free time, you’ll probably find me sipping on <b>coffee</b> <CiCoffeeCup style={{scale:"1.5", rotate:"15deg"}}/> and exploring new technologies to fuel my next project.
+          I am proficient in <b>C</b> and <b>Python</b>, and currently honing my skills through projects in the <b>MERN</b> stack. 
+          I am constantly learning and looking forward to mastering <b>React</b>, <b>Node.js</b>, and <b>TypeScript</b> soon.<br /><br />
+          
           </p>
         </div>
         <Tilt>

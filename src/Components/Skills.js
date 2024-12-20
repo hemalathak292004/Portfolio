@@ -1,7 +1,7 @@
 import React from 'react';
 import { CgCPlusPlus } from 'react-icons/cg';
-import { SiPostman, SiExpress, SiMongodb, SiVercel, SiMysql } from 'react-icons/si';
-import { FaReact, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap, FaHtml5, FaCss3Alt, FaPython, FaPhp } from 'react-icons/fa';
+import { SiMysql } from 'react-icons/si';
+import { FaReact, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaPython } from 'react-icons/fa';
 import { DiJavascript1, DiNodejs } from 'react-icons/di';
 
 const Skills = ({ skill }) => {
